@@ -1,0 +1,7 @@
+# localstack & terraform
+.volume
+.terraform
+dist.zip
+terraform/
+terraform.tfstate*
+terraform.tfvars

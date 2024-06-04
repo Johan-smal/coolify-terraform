@@ -3,7 +3,7 @@ terraform {
 
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "~> 5.3"
     }
   }
@@ -19,6 +19,7 @@ provider "aws" {
 
 module "coolify" {
   source = "./modules/coolify"
+  domain = var.domain
 }
 
 output "coolify" {

@@ -1,4 +1,8 @@
 variable "aws_key_name" {
-  type = string
+  type    = string
   default = "coolify"
+}
+
+variable "domain" {
+  type = string
 }

@@ -6,3 +6,11 @@ variable "aws_key_name" {
 variable "domain" {
   type = string
 }
+
+variable "root_user" {
+  type = object({
+    username = string
+    email = string
+    password = string
+  })
+}

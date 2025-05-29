@@ -1,4 +1,0 @@
-#cloud-config
-runcmd:
-  - curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash 
-  - echo "coolify installed" > initialize.txt

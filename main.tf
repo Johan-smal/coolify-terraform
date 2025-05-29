@@ -20,6 +20,7 @@ provider "aws" {
 module "coolify" {
   source = "./modules/coolify"
   domain = var.domain
+  root_user = var.root_user
 }
 
 output "coolify" {
